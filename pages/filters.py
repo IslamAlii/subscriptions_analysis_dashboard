@@ -126,8 +126,8 @@ else:
         # Currency distribution for churn
         currency_table = filtered_data.groupby('currency')['student_id'].count().reset_index(name='count')
         currency_table = currency_table.sort_values(by='count', ascending=False)
-        st.write("💰 Currency Distribution")
-        st.write(currency_table.set_index('currency').T)
+        # st.write("💰 Currency Distribution")
+        # st.write(currency_table.set_index('currency').T)
 
         # Grades distribution for churn
         country_table = students_df[students_df['id'].isin(filtered_data['student_id'])] \

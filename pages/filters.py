@@ -162,5 +162,5 @@ else:
 
         # Pivot table for churned AOV projection
         churned_aov_projection_pivot = (churned_pivot * aov).applymap(lambda x: int(x) if pd.notna(x) else None)
-        st.subheader("💸 Churned AOV projection")
+        st.subheader("💸 Churned ARPU projection")
         st.write(churned_aov_projection_pivot)

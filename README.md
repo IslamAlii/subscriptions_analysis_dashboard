@@ -14,7 +14,7 @@ A powerful, interactive dashboard built using **Streamlit** to analyze subscript
 - **Business KPIs**: Total students, ARPU, and Churn Rate.
 - **Trends Visualization**: Year-over-year revenue and user activity trends using Altair charts.
 
-### 🧮 Cohort Analysis (Filter Viewer)
+### 🧮 Subscriptions Analysis (Filter Viewer)
 - Visual exploration of **Retention** and **Churn** across different cohorts.
 - Filter by:
   - Subscription type (`Retention` or `Churn`)

@@ -1,6 +1,6 @@
 from utils.data_utils import st, load_data, format_currency, get_subscriptions_by_currency, compute_egp_financial_metrics, compute_total_students_count, compute_free_students_count, compute_non_churned_students_count, compute_churned_students_count, compute_churn_rate, compute_arpu_for_egp, plot_yearly_revenue_trends, plot_yearly_user_trends
 
-st.set_page_config(page_title="Subscriptions Analysis Dashboard", layout="wide", page_icon="📊")
+st.set_page_config(page_title="Dashboard Overview", layout="wide", page_icon="📊")
 
 st.title("📊 Dashboard Overview")
 

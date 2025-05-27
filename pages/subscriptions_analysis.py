@@ -1,6 +1,6 @@
 from utils.data_utils import st, pd, aov, current_day, load_data, get_percentage_pivot_for_same_cohort
 
-st.set_page_config(page_title="iSchool Dashboard", layout="wide", page_icon="📊")
+st.set_page_config(page_title="Subscriptions Analysis Dashboard", layout="wide", page_icon="📊")
 
 st.title("📊 Renewals Forecast")
 

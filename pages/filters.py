@@ -69,8 +69,8 @@ if subscription_type == 'Retention':
         # Currency distribution for retention
         currency_table = filtered_data.groupby('currency')['student_id'].count().reset_index(name='count')
         currency_table = currency_table.sort_values(by='count', ascending=False)
-        st.write("💰 Currency Distribution")
-        st.write(currency_table.set_index('currency').T)
+        # st.write("💰 Currency Distribution")
+        # st.write(currency_table.set_index('currency').T)
 
         # Plan distribution for retention
         currency_table = filtered_data.groupby('plan')['student_id'].count().reset_index(name='count')

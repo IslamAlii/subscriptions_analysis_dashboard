@@ -57,7 +57,7 @@ if subscription_type == 'Retention':
     if filtered_data.empty:
         st.info("No data available for this filter combination.")
     else:
-        st.write(filtered_data[['student_id', 'subscribed_at', 'expired_at', 'currency', 'paid_amount', 'plan']])
+        # st.write(filtered_data[['student_id', 'subscribed_at', 'expired_at', 'currency', 'paid_amount', 'plan']])
 
         # Country distribution for retention
         country_table = students_df[students_df['id'].isin(filtered_data['student_id'])] \

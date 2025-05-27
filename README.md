@@ -18,10 +18,6 @@ This suite allows you to:
 
 
 ## 🔍 Features
-- Retention and churn metrics per cohort month  
-- Pivot tables of student counts by country, grade/module, and currency  
-- Revenue-based CLV forecasts  
-- Monthly student cohort sizes and renewal patterns
 - 📅 Monthly cohort-based analysis  
 - 🔁 Retention achieved breakdown  
 - 📉 Churned user insights  

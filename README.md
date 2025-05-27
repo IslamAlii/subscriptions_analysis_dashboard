@@ -1,8 +1,9 @@
 # 📊 Subscriptions Analysis Dashboard
 
-[🔗 Live App](https://subscriptionsanalysisdashboard-gspuffpbafa4npighs3rd5.streamlit.app/cohort_analysis)
+[🔗 Live App](https://subscriptionsanalysisdashboard-gspuffpbafa4npighs3rd5.streamlit.app)
 
 An end-to-end analytics dashboard suite built with **Streamlit** to visualize, track, and forecast student subscription performance in an education platform. It includes multiple apps: an **overview dashboard**, **renewals/churn forecasting**, and a **filter-driven exploration tool**.
+
 ---
 
 ## 🚀 Overview
